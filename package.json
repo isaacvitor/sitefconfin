@@ -1,0 +1,28 @@
+{
+  "name": "confin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacvitor/confin.git"
+  },
+  "keywords": [],
+  "author": "Isaac Vitor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacvitor/confin/issues"
+  },
+  "homepage": "https://github.com/isaacvitor/confin#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  }
+}
