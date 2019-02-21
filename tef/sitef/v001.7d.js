@@ -123,6 +123,58 @@ exports.cv = [
   {position:'176187', type:_dataType.n, description:'Código de autorização'},
   {position:'188190', type:_dataType.n, description:'Código da bandeira'},
   {position:'191193', type:_dataType.n, description:'Código do produto'},
-  {position:'194199', type:_dataType.n, description:'Número sequencial do registro'},
+  {position:'194199', type:_dataType.n, description:'Número sequencial do registro'}
 ]
 
+exports.aj = [
+  {position:'001002', type:_dataType.a, description:'Registro de ajuste'},
+  {position:'003017', type:_dataType.n, description:'Identificação da loja'},
+  {position:'018029', type:_dataType.n, description:'NSU host da transação'},
+  {position:'030037', type:_dataType.d, description:'Data da transação'},
+  {position:'038039', type:_dataType.n, description:'Número da parcela, zero à vista'},
+  {position:'040051', type:_dataType.n, description:'NSU Host da transação'},
+  {position:'052059', type:_dataType.d, description:'Data da transação AJ'},
+  {position:'060065', type:_dataType.h, description:'Hora da transação AJ'},
+  {position:'066066', type:_dataType.n, description:'Tipo de lançamento, 0=previsao, 1=liquidacao, 2=liquidacao antecipada'},
+  {position:'067074', type:_dataType.d, description:'Data de lançamento contábil da transção de ajuste'},
+  {position:'075075', type:_dataType.n, description:'Meio de captura, 1=manual, 2=pos, 3=pdv, 4=trn off, 5=internet, 6=ura,8=indefinido'},
+  {position:'076076', type:_dataType.n, description:'Tipo de ajuste, 1=ajuste credito, 2=ajuste debito'},
+  {position:'077079', type:_dataType.n, description:'Código de ajuste'},
+  {position:'080109', type:_dataType.a, description:'Descriçao do motivo do ajuste'},
+  {position:'110120', type:_dataType.m, description:'Valor bruto'},
+  {position:'121131', type:_dataType.m, description:'Valor do desconto'},
+  {position:'132142', type:_dataType.m, description:'Valor liquido'},
+  {position:'143145', type:_dataType.n, description:'Banco'},
+  {position:'146151', type:_dataType.n, description:'Agência'},
+  {position:'152162', type:_dataType.a, description:'Conta corrente'},
+  {position:'163181', type:_dataType.c, description:'Número do cartão'},
+  {position:'182184', type:_dataType.n, description:'Código da bandeira'},
+  {position:'185187', type:_dataType.n, description:'Código do produto'},
+  {position:'188193', type:_dataType.n, description:'Número sequencial do registro'}
+]
+
+exports.cc = [
+  {position:'001002', type:_dataType.a, description:'Registro de cancelamento'},
+  {position:'003017', type:_dataType.n, description:'Identificação da loja'},
+  {position:'018029', type:_dataType.n, description:'NSU host da transação original'},
+  {position:'030037', type:_dataType.d, description:'Data da transação'},
+  {position:'038039', type:_dataType.n, description:'Número da parcela, zero à vista'},
+  {position:'040051', type:_dataType.n, description:'NSU Host da transação'},
+  {position:'052059', type:_dataType.d, description:'Data da transação CC'},
+  {position:'060065', type:_dataType.h, description:'Hora da transação CC'},
+  {position:'066066', type:_dataType.n, description:'Meio de captura, 1=manual, 2=pos, 3=pdv, 4=trn off, 5=internet, 6=ura,8=indefinido'},
+  {position:'067072', type:_dataType.n, description:'Número sequencial do registro'}
+]
+
+exports.l9 = [
+  {position:'001002', type:_dataType.a, description:'Registro de lote'},
+  {position:'003008', type:_dataType.n, description:'Total de registros'},
+  {position:'009022', type:_dataType.m, description:'Total de valores CV - CP + PF + AJc - AJd'},
+  {position:'023028', type:_dataType.n, description:'Número sequencial do registro'}
+]
+
+exports.a9 = [
+  {position:'001002', type:_dataType.a, description:'Registro de fim de arquivo'},
+  {position:'003008', type:_dataType.n, description:'Total de registros'},
+  {position:'009014', type:_dataType.n, description:'Número sequencial do registro'}
+]
