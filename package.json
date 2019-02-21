@@ -1,6 +1,6 @@
 {
-  "name": "confin",
-  "version": "0.1.0",
+  "name": "sitefconfin",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaacvitor/confin.git"
+    "url": "git+https://github.com/isaacvitor/sitefconfin.git"
   },
   "keywords": [],
   "author": "Isaac Vitor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isaacvitor/confin/issues"
+    "url": "https://github.com/isaacvitor/sitefconfin/issues"
   },
-  "homepage": "https://github.com/isaacvitor/confin#readme",
+  "homepage": "https://github.com/isaacvitor/sitefconfin#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"

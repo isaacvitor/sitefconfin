@@ -3,7 +3,7 @@ const assert = chai.assert
 
 const { dataA0 } = require('./mocks/sitef')
 const helper = require('../util/helper')
-const layout = require('../tef/sitef/v001.7d')
+const layout = require('../layouts/v001.7d')
 
 describe('SUIT Helper - parseDataToLayoutSection', () => {
   it('When the LAYOUTSECTION and DATA are null or undefined ', () => {
